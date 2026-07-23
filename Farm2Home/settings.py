@@ -29,6 +29,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['farm2home-wntz.onrender.com', '127.0.0.1', 'localhost']
 
+CORS_ALLOWED_ORIGINS = [
+    "https://farm2home-frontend-react-project.onrender.com",
+    
+]
+
 # Application definition
 
 INSTALLED_APPS = [
