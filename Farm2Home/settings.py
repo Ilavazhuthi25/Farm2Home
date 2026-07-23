@@ -24,11 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u%h4*why5fm-35q*y^_&mbwi9@1slekxiwj)n(*h--u+veqm5w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-
-ALLOWED_HOSTS = ['farm2home-wntz.onrender.com', '127.0.0.1', 'localhost']
-
+ALLOWED_HOSTS = ['farm2home-1-43wq.onrender.com', 'localhost', '127.0.0.1']
 CORS_ALLOWED_ORIGINS = [
     "https://farm2home-frontend-react-project.onrender.com",
     
